@@ -36,3 +36,60 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+table,
+tr,
+td,
+th {
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.orderList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonsGroup {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-left: auto;
+}
+
+.brandField {
+  margin-bottom: 5px;
+}
+
+.brandLabel {
+  margin-right: 4px;
+}
+
+.brandInput {
+  margin-right: 4px;
+}
+
+.orderLabel {
+  margin-right: 4px;
+}
+
+.brandsDropdown {
+  margin-right: 4px;
+}
+
+.priceInput {
+  margin-right: 4px;
+}
+
+.orderOperationRow {
+  margin-bottom: 4px;
+}
