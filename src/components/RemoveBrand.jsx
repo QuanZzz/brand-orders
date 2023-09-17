@@ -25,6 +25,7 @@ const RemoveBrand = ({ brands, setBrands }) => {
         Remove the brand:
       </label>
       <select
+        data-testid="brandsDropdown"
         name="brands"
         className="brandsDropdown"
         id="brandsDropdown"

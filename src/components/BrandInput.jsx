@@ -1,8 +1,8 @@
-import { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 
 const BrandInput = ({ brands, setBrands }) => {
-  const [brandName, setBrandName] = useState("");
-  const [isDisabled, setIsDisabled] = useState(true);
+  const [brandName, setBrandName] = React.useState("");
+  const [isDisabled, setIsDisabled] = React.useState(true);
 
   const handleOnSubmit = () => {
     if (!brands) {
@@ -30,6 +30,7 @@ const BrandInput = ({ brands, setBrands }) => {
         Add a brand:
       </label>
       <input
+        id="brandInput"
         className="brandInput"
         type="text"
         value={brandName}
